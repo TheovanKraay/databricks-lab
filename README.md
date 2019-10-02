@@ -11,47 +11,50 @@ Do the following to create your first workspace:
 1. Open the azure Portal: portal.azure.com
 1. Click Create a resource in the left column
 
+<br />
 
  	![](./images/img1.png)
 	
 <br />  
-<br />
 
 1. Write &quot;databricks&quot; in the search box and select Azure Databricks
 
 
-
+<br />
 	![](./images/img2.png)
 
-
+<br />
 
 1. In the end of the information page that shows up, click Create:
 
+<br />
 
 	![](./images/img3.png)
 	
-
+<br />
 
 1. Fill in the basic data in the mini-form. Pick your own unique names and hit Create.
 
+<br />
 
 	![](./images/img4.png)
 	
-	
+<br />	
 
 1. Deployment of the Workspace should take about 2 minutes. When it&#39;s over, head over to the Workspace, for example by clicking &quot;Go to resource&quot; in the notification:
 
+<br />
 
 	![](./images/img5.png)
 	
-	
+<br />	
 
 1. To access your Databricks Workspace, now click &quot;Launch Workspace&quot;:
 
-
+<br />
 	![](./images/img6.png)
 	
-	
+<br />	
 
 1. Another browser window will open, and you&#39;ll be automatically signed in to the cluster.
 
@@ -61,18 +64,25 @@ The workspace by itself allows you to store your artefacts but doesn&#39;t inclu
 
 1. Access the Clusters option:
 
-
+<br />
 	![](./images/img7.png)
 	
-
+<br />
 
 1. Click Create Cluster:
  
+<br />
 	![](./images/img8.png)
 
+<br />
+
 1. Fill in the form as in the following screenshot:
- 
+
+<br />
 	![](./images/img9.png)
+	
+<br />  
+
 
 > Note: please pay attention to important fields which have different values than the defaults: Databricks Runtime Version, Python Version, Max Workers.**
 Also note that by default your cluster will be stopped after 120 minutes of inactivity, which avoids ramping up Databricks costs even if you forget to turn it off.
@@ -88,7 +98,10 @@ To create a notebook:
 
 1. Click Workspace, then Users, then the little gray arrow next to your username, then Create \&gt; Notebook:
  
+ <br />
 	![](./images/img10.png)
+	
+<br />
 
 1. Pick the name and default language and click Create
 
@@ -96,7 +109,10 @@ To create a notebook:
 
 1. The notebook is ready for use:
 
+<br />
 	![](./images/img12.png)
+
+<br />
 
 > Note: by default, any code you write in this notebook will be executed as Python. If you want to use other contents you can use the magic commands, by putting them right at the top of the cells, as shown in the following image. For this challenge the relevant magic commands are:
 
@@ -117,12 +133,15 @@ Finally, another relevant note is that Databricks Notebooks can be scheduled for
 
 1. To import an existing notebook or collection of notebooks, do similar steps to the previous, but select Import instead of Create:
  
+<br />
 	![](./images/img14.png)
 
+<br />
 1. And in the following screen:
  
+<br />
 	![](./images/img15.png)
-
+<br />
 
 > For the rest of this lab, download the DBC file [Databricks Fundamentals.dbc](<https://github.com/TheovanKraay/databricks-lab/raw/master/Databricks%20Fundamentals.dbc>). from this repo **and install it in your cluster.** You can try the challanges therein!
 
