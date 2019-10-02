@@ -138,12 +138,16 @@ Finally, another relevant note is that Databricks Notebooks can be scheduled for
 
 1. Follow Databricks connect instructions here: https://docs.azuredatabricks.net/dev-tools/db-connect.html
 
-1. You should then be able to start Jupyter, and connect to cluster, ensuring you add:
+
+1. You should be able to export your completed notebook from above as a jupyter notebook (ipynb file):
+
+	![](./images/img16.png)
+	
+1. You should then be able to start Jupyter, import the above file, and connect to cluster by adding:
 
 ```python
 	from pyspark.sql import SparkSession
 	spark = SparkSession.builder.getOrCreate()
-
-1. You should be able to export your completed notebook from above as a jupyter notebook (ipynb file):
+```
 
 > tip: to display results, in Jupyter you may need df.limit(10).toPandas().head() instead of display(df).
