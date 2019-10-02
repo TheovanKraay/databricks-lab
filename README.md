@@ -113,3 +113,23 @@ Finally, another relevant note is that Databricks Notebooks can be scheduled for
 > For the rest of this lab, download the DBC file [Databricks Fundamentals.dbc](<https://github.com/TheovanKraay/databricks-lab/raw/master/Databricks%20Fundamentals.dbc>). from this repo **and install it in your cluster.** You can try the challanges therein!
 
 > The .dbc format is a Databricks archive, a package that can contain a folder of notebooks or a single notebook. A Databricks archive is a JAR file with extra metadata and has the extension &quot;dbc&quot;.
+
+
+# Connecting to Databricks remotely from Jupyter
+
+
+1. First, install Jupyter. See here: https://jupyter.org/install (recommend the conda install)
+
+1. Ensure you install Java from here: https://www.java.com/en/download/win10.jsp
+
+1. If installing Jupyter on using windows, download the winutils (hadoop client libraries) from here: https://github.com/srccodes/hadoop-common-2.2.0-bin/archive/master.zip. Unzip winutils to your c: drive, create a system environment variable called HADOOP_HOME, and the path of winutils as the value
+
+1. Follow Databricks connect instructions here: https://docs.azuredatabricks.net/dev-tools/db-connect.html
+
+1. You should then be able to start Jupyter, and connect to cluster, ensuring you add:
+
+```python
+	from pyspark.sql import SparkSession
+	spark = SparkSession.builder.getOrCreate()
+
+> tip: to display results, in Jupyter you may need df.limit(10).toPandas().head() instead of display(df).
