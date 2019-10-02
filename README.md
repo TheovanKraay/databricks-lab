@@ -11,10 +11,8 @@ Do the following to create your first workspace:
 1. Open the azure Portal: portal.azure.com
 1. Click Create a resource in the left column
 
-<br />  
-
+<br />
 	![](./images/img1.png)
-
 <br />  
 
 1. Write &quot;databricks&quot; in the search box and select Azure Databricks
