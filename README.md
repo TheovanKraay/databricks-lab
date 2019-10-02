@@ -11,6 +11,8 @@ Do the following to create your first workspace:
 1. Open the azure Portal: portal.azure.com
 1. Click Create a resource in the left column
 
+<br />
+
 	![](./images/img1.png)
 <br />  
 
