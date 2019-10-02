@@ -144,4 +144,6 @@ Finally, another relevant note is that Databricks Notebooks can be scheduled for
 	from pyspark.sql import SparkSession
 	spark = SparkSession.builder.getOrCreate()
 
+1. You should be able to export your completed notebook from above as a jupyter notebook (ipynb file):
+
 > tip: to display results, in Jupyter you may need df.limit(10).toPandas().head() instead of display(df).
