@@ -15,7 +15,7 @@ Do the following to create your first workspace:
  	![](./images/img1.png)
 
 
-1. Write &quot;databricks&quot; in the search box and select Azure Databricks
+1. Write &quot;Azure Databricks&quot; in the search box and select Azure Databricks
 
 
 
