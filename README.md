@@ -111,4 +111,4 @@ Finally, another relevant note is that Databricks Notebooks can be scheduled for
 
 > The .dbc format is a Databricks archive, a package that can contain a folder of notebooks or a single notebook. A Databricks archive is a JAR file with extra metadata and has the extension &quot;dbc&quot;.
 
-> For this course, download a DBC file from** [**https://aka.ms/UkLearnAI**](https://aka.ms/UkLearnAI) **and install it in your cluster.**
+> For this course, download a DBC file "Databricks Fundamentals.dbc" from this repo **and install it in your cluster.**
