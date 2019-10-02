@@ -111,3 +111,5 @@ Finally, another relevant note is that Databricks Notebooks can be scheduled for
 
 
 > For the rest of this lab, download the DBC file [Databricks Fundamentals.dbc](<https://github.com/TheovanKraay/databricks-lab/raw/master/Databricks%20Fundamentals.dbc>). from this repo **and install it in your cluster.** You can try the challanges therein!
+
+> The .dbc format is a Databricks archive, a package that can contain a folder of notebooks or a single notebook. A Databricks archive is a JAR file with extra metadata and has the extension &quot;dbc&quot;.
