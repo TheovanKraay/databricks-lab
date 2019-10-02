@@ -11,34 +11,45 @@ Do the following to create your first workspace:
 1. Open the azure Portal: portal.azure.com
 1. Click Create a resource in the left column
 
+
  	![](./images/img1.png)
 
 
 1. Write &quot;databricks&quot; in the search box and select Azure Databricks
 
 
+
 	![](./images/img2.png)
+
 
 
 1. In the end of the information page that shows up, click Create:
 
 
 	![](./images/img3.png)
+	
 
 
 1. Fill in the basic data in the mini-form. Pick your own unique names and hit Create.
 
+
 	![](./images/img4.png)
+	
+	
 
 1. Deployment of the Workspace should take about 2 minutes. When it&#39;s over, head over to the Workspace, for example by clicking &quot;Go to resource&quot; in the notification:
 
 
 	![](./images/img5.png)
+	
+	
 
 1. To access your Databricks Workspace, now click &quot;Launch Workspace&quot;:
 
 
 	![](./images/img6.png)
+	
+	
 
 1. Another browser window will open, and you&#39;ll be automatically signed in to the cluster.
 
@@ -50,6 +61,7 @@ The workspace by itself allows you to store your artefacts but doesn&#39;t inclu
 
 
 	![](./images/img7.png)
+	
 
 
 1. Click Create Cluster:
