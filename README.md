@@ -84,7 +84,7 @@ Databricks Notebooks are similar to Jupyter notebooks, but focused on offering a
 To create a notebook:
 
 
-1. Click Workspace, then Users, then the little gray arrow next to your username, then Create \&gt; Notebook:
+1. Click Workspace, then Users, then the little gray arrow next to your username, then Create > Notebook:
  
 	![](./images/img10.png)
 
